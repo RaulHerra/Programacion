@@ -22,14 +22,14 @@ cara=0
 
 while cara!=2:
     ficha1.append(int(input(f"Introduzca el {cara+1}º valor de la primera ficha: ")))
-    while ficha1[cara]<1 or 6<ficha1[cara]:
-        ficha1[cara]=(int(input(f"Introduzca un valor valido (1-6): ")))
+    while ficha1[cara]<0 or 6<ficha1[cara]:
+        ficha1[cara]=(int(input(f"Introduzca un valor valido (0-6): ")))
     cara+=1
 
 cara=0 
 while cara!=2:
     ficha2.append(int(input(f"Introduzca el {cara+1}º valor de la segunda ficha: ")))
-    while ficha2[cara]<1 or 6<ficha2[cara]:
+    while ficha2[cara]<0 or 6<ficha2[cara]:
         ficha2[cara]=(int(input(f"Introduzca un valor valido (1-6): ")))
     cara+=1
 
