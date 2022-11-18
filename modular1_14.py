@@ -5,7 +5,6 @@ Created on 14 nov 2022
 '''
 
 def palabraMasLarga(lista):
-    aux= [""]
     palabra=""
     contadorAnterior=0
     for i in lista:
@@ -18,8 +17,7 @@ def palabraMasLarga(lista):
                     if contadorAnterior<contador:
                         contadorAnterior=contador
                         palabra=i
-                        aux.pop(0); aux.append(i)
-    return aux
+    return palabra
     
     
     
