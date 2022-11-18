@@ -10,7 +10,7 @@ def encajan(f1, f2):
     f2pt1=int(f2[1])
     f2pt2=int(f2[4])
     
-    if f1pt1==f2pt1 or f1pt1==f2pt2 or f2pt1==f1pt2:
+    if f1pt1==f2pt1 or f1pt1==f2pt2 or f2pt1==f1pt2 or f2pt2==f1pt2:
         encaja=True
     else:
         encaja=False
