@@ -39,6 +39,9 @@ public class MainBaraja {
 					System.err.println("Ha llegado al número máximo de cartas");
 					anotherOne="N";
 				}
+				if(valorUsuario<=7.5) {
+					break;
+				}
 			}
 		}while(!(anotherOne.equals("N")));
 		
@@ -54,10 +57,11 @@ public class MainBaraja {
 				
 			}			
 		}while(valorBanca<valorUsuario && valorBanca<7.5 && valorUsuario<=7.5);
-		if(valorBanca<=valorUsuario && valorBanca<=7.5) {
-			System.out.println("La banca gana");
+		
+		if(valorUsuario>7.5 || (valorBanca>=valorUsuario && valorBanca<7.5)) {
+			System.out.print("La banca gana");
 		}else {
-			if (valorUsuario<7.5){
+			if (valorUsuario<=7.5){
 				System.out.println("Usted gana");
 			}else {
 				System.out.println("Nadie gana");
