@@ -25,4 +25,20 @@ public class Caseta{
 	public int getNumero() {
 		return numero;
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public int getModulos() {
+		return modulos;
+	}
+
+	public String getClase() {
+		return clase;
+	}
 }

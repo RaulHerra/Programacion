@@ -5,35 +5,51 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import com.casetas.model.Calle;
-import com.casetas.model.CallesYCasetas;
 import com.casetas.model.Caseta;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonIOException;
-import com.google.gson.JsonSyntaxException;
+import com.google.gson.reflect.TypeToken;
+import com.google.gson.stream.JsonReader;
 
 public class JSONManager {
 
-	public static Map<Calle, List<Caseta>> cargarDatos(String path){
-		Map<Calle, List<Caseta>> callesYCasetas = null; 
-		
-		Gson gson = new GsonBuilder().create();
-		CallesYCasetas[] array;
-		
+	public static Map<Calle, Caseta[]> cargarDatos(String path){
+		JsonReader getLocalJsonFile = null;
 		try {
-			array = gson.fromJson(new FileReader(path), CallesYCasetas[].class);
-			callesYCasetas = (Map<Calle, List<Caseta>>) new ArrayList(Arrays.asList(array));
-		} catch (JsonSyntaxException | JsonIOException | FileNotFoundException e) {
+			getLocalJsonFile = new JsonReader(new FileReader(path));
+		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+
+        Type mapTokenType = new TypeToken<Map<Calle, List<Caseta>>>(){}.getType();
+
+        Map<Calle, Caseta[]> jsonMap = new Gson().fromJson(getLocalJsonFile, mapTokenType);
+
+        return jsonMap;
+	}
+	
+	public static Map<Calle, List<Caseta>> cargarDatosComoMapa(String path){
+		Map<Calle, Caseta[]> jsonMap = cargarDatos(path);
+		Map<Calle, List<Caseta>> resultado = new HashMap<>();
+		List<Caseta> casetas = new ArrayList<>();
 		
-		return callesYCasetas;
+		for(Calle c : jsonMap.keySet()) {
+			List<Caseta> tmp = new ArrayList<>();
+			
+			for(Caseta cas : jsonMap.get(c)) {
+				tmp.add((Caseta)cas);
+			}
+			resultado.put(c, tmp);
+		}
+		return resultado;
 	}
 	
 	public static void toJSON(Map<Calle, List<Caseta>> mapaCasetas, String path) {
