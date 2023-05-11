@@ -6,9 +6,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -29,27 +26,11 @@ public class JSONManager {
 			e.printStackTrace();
 		}
 
-        Type mapTokenType = new TypeToken<Map<Calle, List<Caseta>>>(){}.getType();
+        Type mapTokenType = new TypeToken<Map<Calle, Caseta[]>>(){}.getType();
 
         Map<Calle, Caseta[]> jsonMap = new Gson().fromJson(getLocalJsonFile, mapTokenType);
 
         return jsonMap;
-	}
-	
-	public static Map<Calle, List<Caseta>> cargarDatosComoMapa(String path){
-		Map<Calle, Caseta[]> jsonMap = cargarDatos(path);
-		Map<Calle, List<Caseta>> resultado = new HashMap<>();
-		List<Caseta> casetas = new ArrayList<>();
-		
-		for(Calle c : jsonMap.keySet()) {
-			List<Caseta> tmp = new ArrayList<>();
-			
-			for(Caseta cas : jsonMap.get(c)) {
-				tmp.add((Caseta)cas);
-			}
-			resultado.put(c, tmp);
-		}
-		return resultado;
 	}
 	
 	public static void toJSON(Map<Calle, List<Caseta>> mapaCasetas, String path) {

@@ -17,10 +17,6 @@ public class Caseta{
 		this.clase = clase;
 	}
 
-	@Override
-	public String toString() {
-		return "Caseta: "+titulo+" Número: "+numero;
-	}
 
 	public int getNumero() {
 		return numero;
@@ -40,5 +36,9 @@ public class Caseta{
 
 	public String getClase() {
 		return clase;
+	}
+	@Override
+	public String toString() {
+		return String.format("Caseta: %s Número: %s", titulo, numero);
 	}
 }

@@ -12,6 +12,11 @@ public class Calle {
 		this.nombre = nombre;
 		this.idCalle = idCalle;
 	}
+	
+	public Calle(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
 
 	@Override
 	public String toString() {
@@ -30,7 +35,7 @@ public class Calle {
 		if(!sonIguales && obj instanceof Calle) {
 			Calle casteado = (Calle) obj;
 			
-			sonIguales=casteado.idCalle==(this.idCalle);
+			sonIguales=casteado.nombre.equals(this.nombre);
 		}
 		return sonIguales;
 	}
