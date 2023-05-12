@@ -3,6 +3,7 @@ package com.casetas.main;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
@@ -18,7 +19,8 @@ public class Menu {
 
 	private Map<Calle, List<Caseta>> sacarFamiliares(Map<Calle, Caseta[]> original){
 		Map<Calle, List<Caseta>> resultado = new HashMap<>();
-		
+
+		//Recorre el mapa original para añadir a tmp las calles del parametro buscado
 		for(Calle c : original.keySet()) {
 			List<Caseta> tmp = new ArrayList<>();
 			for(int i = 0; i<original.size();i++) {
@@ -35,7 +37,8 @@ public class Menu {
 	
 	private Map<Calle, List<Caseta>> sacarDistritos(Map<Calle, Caseta[]> original){
 		Map<Calle, List<Caseta>> resultado = new HashMap<>();
-		
+
+		//Recorre el mapa original para añadir a tmp las calles del parametro buscado
 		for(Calle c : original.keySet()) {
 			List<Caseta> tmp = new ArrayList<>();
 			for(int i = 0; i<original.size();i++) {
@@ -53,6 +56,7 @@ public class Menu {
 	private Map<Calle, List<Caseta>> sacarOtros(Map<Calle, Caseta[]> original){
 		Map<Calle, List<Caseta>> resultado = new HashMap<>();
 		
+		//Recorre el mapa original para añadir a tmp las calles del parametro buscado
 		for(Calle c : original.keySet()) {
 			List<Caseta> tmp = new ArrayList<>();
 			for(int i = 0; i<original.size();i++) {
@@ -75,8 +79,7 @@ public class Menu {
 			if(c.equals(calle)) {
 				resultado.put(calle, Arrays.asList(original.get(c)));
 			}
-		}
-		
+		}	
 		if(resultado.size()!=0) {
 			return resultado;
 		}else {
@@ -84,6 +87,7 @@ public class Menu {
 		}
 	}
 	
+	//Metodo para no mostrar las calles
 	private String quitarCalles(Map<Calle, List<Caseta>> original) {
 		StringBuilder resultado = new StringBuilder("");
 		for(Calle c : original.keySet()) {
@@ -92,24 +96,35 @@ public class Menu {
 		return resultado.toString();
 	}
 	
-	private void eliminarCaseta(Map<Calle, Caseta[]> original, String caseta) throws MenuException {
+	private void eliminarCaseta(Map<Calle, Caseta[]> original, String casetita) throws MenuException {
 		boolean borrado = false;
 		//Convertimos Caseta[] a List<Caseta>
 		Map<Calle, List<Caseta>> resultado = new HashMap<>();
 		
 		for(Calle c : original.keySet()) {
 			if(!resultado.containsKey(c)) {
-				resultado.put(c, Arrays.asList(original.get(c)));
+				resultado.put(c, new ArrayList<>(Arrays.asList(original.get(c))));
 			}
 		}
-		for(Calle c : original.keySet()) {
-			for(Caseta cas : original.get(c)) {
-				if(cas.getTitulo().equals(caseta)) {
-					resultado.get(c).remove(cas);
+		for(Calle c : resultado.keySet()) {
+			//Iteramos sobre resultado para encontrar y borrar la caseta deseada
+			Iterator<Caseta> it = resultado.get(c).iterator();
+			while (it.hasNext()){
+				Caseta casetaActual = it.next();
+				if(casetaActual.getTitulo().equals(casetita) && !borrado) {
+					it.remove();
+//					resultado.get(c).remove(casetaActual);
 					borrado=true;
+				//Cuando se haya borrado, cambiamos los datos de las posteriores
+				}else {
+					if(borrado) {
+						casetaActual.descenderCuandoBorrado();
+					}
 				}
 			}
 		}
+		JSONManager.toJSON(resultado, ".\\files\\casetasOrdenadas.json");
+		//Si no se han borrado datos lanza la excepcion
 		if(!borrado) {
 			throw new MenuException("La caseta a borrar no existe");
 		}
@@ -159,7 +174,7 @@ public class Menu {
 				break;
 			case 7:
 				System.out.print("Introduzca el titulo de la caseta a borrar: ");
-				String cadenita = sc.nextLine();
+				String cadenita = sc.nextLine().toUpperCase();
 				try {
 					eliminarCaseta(datos, cadenita);
 				} catch (MenuException e) {
@@ -170,7 +185,7 @@ public class Menu {
 				System.out.println("Gracias por usar nuestro programa");
 				break;
 			default:
-				System.err.println("Opcion Incorrecta");
+				System.err.println("Te arrepentirás de tu error");
 			}
 		}while(opcion!=8);
 	}

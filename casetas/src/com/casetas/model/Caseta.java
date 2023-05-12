@@ -17,7 +17,6 @@ public class Caseta{
 		this.clase = clase;
 	}
 
-
 	public int getNumero() {
 		return numero;
 	}
@@ -40,5 +39,9 @@ public class Caseta{
 	@Override
 	public String toString() {
 		return String.format("Caseta: %s Número: %s", titulo, numero);
+	}
+	
+	public void descenderCuandoBorrado() {
+		this.numero-=this.modulos;
 	}
 }

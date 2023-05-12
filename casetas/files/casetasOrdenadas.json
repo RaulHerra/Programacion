@@ -6563,310 +6563,303 @@
         "clase": "ENTIDAD"
       },
       {
-        "id": 652,
-        "titulo": "CASETA LOS AMIGOS",
-        "numero": 150,
-        "modulos": 2,
-        "clase": "ENTIDAD"
-      },
-      {
         "id": 653,
         "titulo": "LA PANDERETA",
-        "numero": 153,
+        "numero": 151,
         "modulos": 2,
         "clase": "FAMILIAR"
       },
       {
         "id": 654,
         "titulo": "LAS DOCE HORAS DEL LUNES SANTO",
-        "numero": 154,
+        "numero": 153,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 655,
         "titulo": "EL CATAVINO",
-        "numero": 156,
+        "numero": 155,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 656,
         "titulo": "PEÑA ROCIERA DE SEVILLA",
-        "numero": 157,
+        "numero": 154,
         "modulos": 3,
         "clase": "ENTIDAD"
       },
       {
         "id": 657,
         "titulo": "MAESTRE CARRO FERNANDO",
-        "numero": 158,
+        "numero": 157,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 658,
         "titulo": "XIMENEZ DE CISNEROS REBOLLO MANUEL",
-        "numero": 160,
+        "numero": 159,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 1053,
         "titulo": "AGRUPACION VENDEDORES PRENSA",
-        "numero": 162,
+        "numero": 160,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 660,
         "titulo": "CENTRO CULTURAL BELLAVISTA",
-        "numero": 163,
+        "numero": 162,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 661,
         "titulo": "LA AMISTAD",
-        "numero": 165,
+        "numero": 164,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 662,
         "titulo": "HERMANDAD DE LA ESTRELLA",
-        "numero": 166,
+        "numero": 165,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 663,
         "titulo": "LOS TIRIMUNDI",
-        "numero": 167,
+        "numero": 166,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 664,
         "titulo": "MANUELA ISABEL LUPIAÑEZ GOMEZ",
-        "numero": 169,
+        "numero": 168,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 665,
         "titulo": "LA COPLA",
-        "numero": 171,
+        "numero": 170,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 666,
         "titulo": "CENTRO CULTURAL SAN LORENZO",
-        "numero": 172,
+        "numero": 170,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 667,
         "titulo": "MUÑOZ NOGUERA JUAN",
-        "numero": 173,
+        "numero": 172,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 669,
         "titulo": "ASOCIACION DE EMPLEADOS DEL BANCO POPULAR DE ANDALUCIA (A.E.P.A.)",
-        "numero": 179,
+        "numero": 177,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 670,
         "titulo": "DR. FELIX RODRIGUEZ DE LA FUENTE",
-        "numero": 183,
+        "numero": 182,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 671,
         "titulo": "JB 185",
-        "numero": 185,
+        "numero": 184,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 672,
         "titulo": "DELGADO ROIG PAZOS JOAQUIN ANTONIO",
-        "numero": 187,
+        "numero": 186,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 673,
         "titulo": "LIROLA MARTINEZ ANA",
-        "numero": 189,
+        "numero": 188,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 674,
         "titulo": "RAMOS SANCHEZ SALUD",
-        "numero": 191,
+        "numero": 190,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 675,
         "titulo": "PI GUERRA FRANCISCO",
-        "numero": 192,
+        "numero": 191,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 676,
         "titulo": "ISBILIA",
-        "numero": 193,
+        "numero": 192,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 677,
         "titulo": "LOS PINDONGOS",
-        "numero": 194,
+        "numero": 193,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 678,
         "titulo": "BOMBEROS (RETEN DE FERIA)",
-        "numero": 195,
+        "numero": 194,
         "modulos": 1,
         "clase": "SERVICIOS"
       },
       {
         "id": 679,
         "titulo": "PARTIDO ANDALUCISTA",
-        "numero": 196,
+        "numero": 193,
         "modulos": 3,
         "clase": "ENTIDAD"
       },
       {
         "id": 680,
         "titulo": "EL PATIO",
-        "numero": 197,
+        "numero": 195,
         "modulos": 2,
         "clase": "FAMILIAR"
       },
       {
         "id": 681,
         "titulo": "EL SIRIO DE TRIANA",
-        "numero": 201,
+        "numero": 200,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 682,
         "titulo": "QUIEN SABE ANDE",
-        "numero": 202,
+        "numero": 201,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 683,
         "titulo": "Y NOSOTROS",
-        "numero": 203,
+        "numero": 202,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 684,
         "titulo": "HERMANDAD DE LOS GITANOS",
-        "numero": 204,
+        "numero": 203,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 685,
         "titulo": "CASTILLO BRAVO LEOVIGILDO",
-        "numero": 205,
+        "numero": 204,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 686,
         "titulo": "ESTUDIO 45",
-        "numero": 206,
+        "numero": 205,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 687,
         "titulo": "DELGADO DELGADO MANUEL",
-        "numero": 207,
+        "numero": 206,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 688,
         "titulo": "GUTIERREZ RUBIO MIGUEL",
-        "numero": 208,
+        "numero": 207,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 689,
         "titulo": "GALLARDO FERNANDEZ FRANCISCO",
-        "numero": 209,
+        "numero": 208,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 690,
         "titulo": "EMVISESA",
-        "numero": 210,
+        "numero": 208,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 691,
         "titulo": "LOS DESEOSOS",
-        "numero": 211,
+        "numero": 210,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 692,
         "titulo": "ALAMANESE",
-        "numero": 213,
+        "numero": 212,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 693,
         "titulo": "PRENSA DEL CORAZON",
-        "numero": 215,
+        "numero": 214,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 694,
         "titulo": "CHAVARRI DE LA FUENTE SIMON",
-        "numero": 217,
+        "numero": 216,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 695,
         "titulo": "LOS PAPAS ALIÑA",
-        "numero": 219,
+        "numero": 218,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 696,
         "titulo": "PEÑA CULTURAL Y DEPORTIVA OIGA",
-        "numero": 221,
+        "numero": 219,
         "modulos": 2,
         "clase": "ENTIDAD"
       }
@@ -6881,266 +6874,266 @@
       {
         "id": 235,
         "titulo": "LOS VOLAORES",
-        "numero": 1,
+        "numero": -1,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 236,
         "titulo": "AZAHAR",
-        "numero": 6,
+        "numero": 5,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 237,
         "titulo": "LOS EXTREMEÑOS",
-        "numero": 7,
+        "numero": 6,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 238,
         "titulo": "EL 8",
-        "numero": 8,
+        "numero": 7,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 240,
         "titulo": "QUIROGA BERNALDEZ PILAR",
-        "numero": 10,
+        "numero": 9,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 241,
         "titulo": "LA CASETITA",
-        "numero": 12,
+        "numero": 11,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 242,
         "titulo": "AL ALBA",
-        "numero": 14,
+        "numero": 12,
         "modulos": 2,
         "clase": "FAMILIAR"
       },
       {
         "id": 243,
         "titulo": "VEGUETILLA AS.",
-        "numero": 15,
+        "numero": 14,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 244,
         "titulo": "HERNANDEZ CALLEJAS ANTONIO",
-        "numero": 17,
+        "numero": 15,
         "modulos": 2,
         "clase": "FAMILIAR"
       },
       {
         "id": 245,
         "titulo": "C.E.D.Y. (EMPLEADOS DE YBARRA)",
-        "numero": 27,
+        "numero": 24,
         "modulos": 3,
         "clase": "ENTIDAD"
       },
       {
         "id": 246,
         "titulo": "FLORES GUTIERREZ CARLOS",
-        "numero": 28,
+        "numero": 27,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 247,
         "titulo": "PEQUEÑA REINA",
-        "numero": 30,
+        "numero": 29,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 248,
         "titulo": "EL ABANICO DE LUNARES",
-        "numero": 32,
+        "numero": 31,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 249,
         "titulo": "LOS CATORCE",
-        "numero": 33,
+        "numero": 32,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 250,
         "titulo": "PEPE LUIS VAZQUEZ 34",
-        "numero": 34,
+        "numero": 33,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 251,
         "titulo": "EL FAROL",
-        "numero": 35,
+        "numero": 34,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 252,
         "titulo": "LOS PALITROQUES",
-        "numero": 37,
+        "numero": 36,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 253,
         "titulo": "ROMAN HERNANDEZ JOSE ANTONIO",
-        "numero": 45,
+        "numero": 44,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 254,
         "titulo": "CLUB 17 A.C.",
-        "numero": 47,
+        "numero": 46,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 255,
         "titulo": "RAMOS CARDONA JOSE MANUEL",
-        "numero": 49,
+        "numero": 48,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 256,
         "titulo": "REAL CLUB DE TENIS BETIS",
-        "numero": 50,
+        "numero": 47,
         "modulos": 3,
         "clase": "ENTIDAD"
       },
       {
         "id": 257,
         "titulo": "LERDO DE TEJADA",
-        "numero": 51,
+        "numero": 50,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 258,
         "titulo": "CASETA MUNICIPAL DEL EXCMO.AYUNTAMIENTO DE SEVILLA",
-        "numero": 53,
+        "numero": 50,
         "modulos": 3,
         "clase": "MUNICIPAL"
       },
       {
         "id": 259,
         "titulo": "LA BADILA",
-        "numero": 56,
+        "numero": 55,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 260,
         "titulo": "LA ULTIMA CARGA",
-        "numero": 58,
+        "numero": 54,
         "modulos": 4,
         "clase": "ENTIDAD"
       },
       {
         "id": 261,
         "titulo": "MEJIAS RUIZ RAFAEL",
-        "numero": 59,
+        "numero": 58,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 262,
         "titulo": "FERNANDEZ-PIEDRA CEJAS MANUEL",
-        "numero": 61,
+        "numero": 60,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 263,
         "titulo": "CORTIJO DEL AGUA",
-        "numero": 63,
+        "numero": 61,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 264,
         "titulo": "INGENIEROS INDUSTRIALES",
-        "numero": 66,
+        "numero": 63,
         "modulos": 3,
         "clase": "ENTIDAD"
       },
       {
         "id": 265,
         "titulo": "LA TITA SOLTERA",
-        "numero": 72,
+        "numero": 71,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 266,
         "titulo": "MI FAMILIA",
-        "numero": 73,
+        "numero": 72,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 267,
         "titulo": "PEPE LUIS VAZQUEZ 74",
-        "numero": 74,
+        "numero": 73,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 268,
         "titulo": "LOS ECONOMICAMENTE DEBILES",
-        "numero": 75,
+        "numero": 74,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 269,
         "titulo": "LOS CANDELARIOS",
-        "numero": 76,
+        "numero": 75,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 270,
         "titulo": "JARA Y SEDAL",
-        "numero": 77,
+        "numero": 76,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 271,
         "titulo": "PEPE LUIS VAZQUEZ 78",
-        "numero": 78,
+        "numero": 77,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 272,
         "titulo": "TARTESSOS",
-        "numero": 79,
+        "numero": 78,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 273,
         "titulo": "CADENA SER",
-        "numero": 80,
+        "numero": 77,
         "modulos": 3,
         "clase": "ENTIDAD"
       }
@@ -7155,287 +7148,287 @@
       {
         "id": 274,
         "titulo": "EL CIENTO Y LA MADRE",
-        "numero": 2,
+        "numero": 0,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 275,
         "titulo": "FERNANDEZ LIMON MANUEL",
-        "numero": 5,
+        "numero": 4,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 276,
         "titulo": "LOS QUINCE DE CHICUELO 6",
-        "numero": 6,
+        "numero": 5,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 277,
         "titulo": "CHICUELO 7",
-        "numero": 7,
+        "numero": 6,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 278,
         "titulo": "CHICUELO 8",
-        "numero": 8,
+        "numero": 7,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 279,
         "titulo": "LA SUGERENCIA",
-        "numero": 9,
+        "numero": 7,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 280,
         "titulo": "LA CARROZA",
-        "numero": 10,
+        "numero": 9,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 281,
         "titulo": "CHICUELO 12",
-        "numero": 12,
+        "numero": 11,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 282,
         "titulo": "SAL SI PUEDES",
-        "numero": 13,
+        "numero": 12,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 283,
         "titulo": "LOS DE CHICUELO 13",
-        "numero": 14,
+        "numero": 13,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 284,
         "titulo": "LA FUNDICION",
-        "numero": 15,
+        "numero": 14,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 285,
         "titulo": "CHICUELO 16",
-        "numero": 16,
+        "numero": 15,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 286,
         "titulo": "HERMANDAD DE LA PAZ",
-        "numero": 17,
+        "numero": 16,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 287,
         "titulo": "PIAZZA RODRIGUEZ LUIS",
-        "numero": 18,
+        "numero": 17,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 288,
         "titulo": "SUERO ALONSO BLAS JOSE",
-        "numero": 19,
+        "numero": 18,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 289,
         "titulo": "NIQUI Y CIA",
-        "numero": 20,
+        "numero": 19,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 290,
         "titulo": "PEÑA C. Y S. SEVILLISTA PUERTA CARMONA",
-        "numero": 21,
+        "numero": 18,
         "modulos": 3,
         "clase": "ENTIDAD"
       },
       {
         "id": 291,
         "titulo": "A.E.I.H.",
-        "numero": 22,
+        "numero": 20,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 292,
         "titulo": "LOS AMIGOS DE PACO TENOT",
-        "numero": 32,
+        "numero": 31,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 293,
         "titulo": "EL ACOPLADOR",
-        "numero": 33,
+        "numero": 31,
         "modulos": 2,
         "clase": "FAMILIAR"
       },
       {
         "id": 294,
         "titulo": "LOS DOCE AMIGOS",
-        "numero": 34,
+        "numero": 32,
         "modulos": 2,
         "clase": "FAMILIAR"
       },
       {
         "id": 295,
         "titulo": "CHICUELO 37",
-        "numero": 37,
+        "numero": 36,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 296,
         "titulo": "PEÑA SEVILLISTA R.S.PIZJUAN",
-        "numero": 38,
+        "numero": 37,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 297,
         "titulo": "HERMANDAD SAGRADA MORTAJA",
-        "numero": 39,
+        "numero": 38,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 298,
         "titulo": "APROCOM",
-        "numero": 40,
+        "numero": 39,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 299,
         "titulo": "HERMANDAD DEL MUSEO",
-        "numero": 41,
+        "numero": 40,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 300,
         "titulo": "SANCHEZ MARTINEZ JUAN",
-        "numero": 42,
+        "numero": 41,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 301,
         "titulo": "LAS CORNETILLAS",
-        "numero": 43,
+        "numero": 41,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 302,
         "titulo": "EL CUAJARON",
-        "numero": 47,
+        "numero": 46,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 303,
         "titulo": "GIMENEZ DE ARAGON VIDAL PEDRO",
-        "numero": 49,
+        "numero": 47,
         "modulos": 2,
         "clase": "FAMILIAR"
       },
       {
         "id": 304,
         "titulo": "LA TARDONA",
-        "numero": 50,
+        "numero": 47,
         "modulos": 3,
         "clase": "FAMILIAR"
       },
       {
         "id": 305,
         "titulo": "EL ESQUINAZO",
-        "numero": 53,
+        "numero": 51,
         "modulos": 2,
         "clase": "FAMILIAR"
       },
       {
         "id": 306,
         "titulo": "LOS AMIGOS DE PEPE ROMAN",
-        "numero": 56,
+        "numero": 55,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 308,
         "titulo": "GONZALEZ CANDAU GRACIA",
-        "numero": 58,
+        "numero": 57,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 309,
         "titulo": "ASOC. CULTURAL CHICUELO 60",
-        "numero": 60,
+        "numero": 59,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 310,
         "titulo": "LA REVIRA",
-        "numero": 62,
+        "numero": 61,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 311,
         "titulo": "PEÑA LA PRINGA",
-        "numero": 63,
+        "numero": 62,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 312,
         "titulo": "LA ESPUELA",
-        "numero": 64,
+        "numero": 62,
         "modulos": 2,
         "clase": "ENTIDAD"
       },
       {
         "id": 313,
         "titulo": "BALON ALCALA ANTONIO",
-        "numero": 65,
+        "numero": 64,
         "modulos": 1,
         "clase": "FAMILIAR"
       },
       {
         "id": 314,
         "titulo": "ROTARY CLUB DE SEVILLA",
-        "numero": 67,
+        "numero": 66,
         "modulos": 1,
         "clase": "ENTIDAD"
       },
       {
         "id": 315,
         "titulo": "EL TIRABUZON",
-        "numero": 69,
+        "numero": 68,
         "modulos": 1,
         "clase": "FAMILIAR"
       }
